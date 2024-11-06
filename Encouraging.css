@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  rgb(245, 242, 239);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif; 
+    text-shadow: white 2px 2px 5px;
+    color: rgb(93, 83, 83);
+}
+
+header {
+    background-image: url("Images/Rocks.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding: 150px;
+    color:rgb(28, 27, 27);
+    text-align: center;
+    text-shadow: white 2px 2px 5px;
+}
+
+footer {
+    background-color: rgb(100, 99, 97);
+    padding: 2rem;
+    color:black;
+    text-align: center;
+    text-shadow: white 2px 2px 5px;
+}
+
+nav{
+    background-color:  rgb(100, 99, 97);
+  }
+
+  nav a{
+    padding: 1rem 3rem;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(100, 99, 97);
+    color:hsl(250, 50%, 98%);
+  }
+
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+  }
+
+  nav a:hover{
+    background-color:rgb(163, 161, 158) ;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  section{
+    margin: 1rem;
+    padding: 5rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 99, 97);
+  }
+
+  article{
+    margin: 1rem;
+    padding: 5rem;
+    font-size: 2rem;
+    background-color: hsl(148, 9%, 71%);
+    border-radius: 10px solid black ;
+    border: 10px solid gray;
+  }
+
+  aside{
+    margin: 1rem;
+    padding: 5rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(100, 99, 97);
+  }
+
+  #formElements{
+    border: 1px solid grey;
+    font-size: 30px;
+    padding: 3rem;
+    margin: 3rem;
+    border-radius: 5px ;
+    background-color:hsl(148, 9%, 71%) ;
+  }
+
+  button{
+    width: 30%;
+    font-size: 20px;
+    float: right;
+    padding: 5px;
+    border-radius: 5px;
+  }
