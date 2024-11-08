@@ -114,118 +114,13 @@ nav li {
 
 /* Small devices (phones, up to 600px) */
 @media (max-width: 600px) {
-  h1 {
-      font-size: 2em;
-  }
-
-  header {
-      padding: 80px;
-  }
-
-  h2 {
-      font-size: 2em;
-  }
-
-  h3 {
-      font-size: 1.5em;
-      padding: 2rem;
-  }
-
-  p {
-      font-size: 1.2rem;
-  }
-
-  .image {
-      float: none;
-      margin: 1.5rem;
-      width: 100%;
-  }
-
-  button {
-      width: 80%;
-      font-size: 1rem;
-  }
-
   nav li {
-      float: none;
-  }
-
-  .flex-container {
-      flex-direction: column;
-  }
+    float: none;
 }
 
-/* Medium devices (tablets, 601px to 1024px) */
-@media (min-width: 601px) and (max-width: 1024px) {
-  h1 {
-      font-size: 3em;
-  }
-
-  header {
-      padding: 100px;
-  }
-
-  h2 {
-      font-size: 2.5em;
-  }
-
-  h3 {
-      font-size: 1.8em;
-      padding: 2.5rem;
-  }
-
-  p {
-      font-size: 1.5rem;
-  }
-
-  .image {
-      float: none;
-      margin: 2rem;
-      width: 50%;
-  }
-
-  button {
-      width: 50%;
-      font-size: 1.2rem;
-  }
-
-  .flex-container {
-      flex-direction: row;
-      flex-wrap: wrap;
-  }
-}
-
-/* Large devices (desktops, 1025px and up) */
-@media (min-width: 1025px) {
-  h1 {
-      font-size: 4em;
-  }
-
-  header {
-      padding: 150px;
-  }
-
-  h2 {
-      font-size: 3em;
-  }
-
-  h3 {
-      font-size: 2em;
-      padding: 3rem;
-  }
-
-  p {
-      font-size: 2rem;
-  }
-
-  .image {
-      float: left;
-      margin: 3.5rem;
-      width: auto;
-  }
-
-  button {
-      width: 30%;
-      font-size: 1.5rem;
+  .image{
+    float: none;
+    margin: 1rem;
+    width: 50%;
   }
 }
