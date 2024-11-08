@@ -37,16 +37,18 @@ footer {
 
 section{
     -ms-flex-item-align: center;
-    background-color:  rgb(245, 242, 239);;
+    background-color:  rgb(245, 242, 239);
 }
 
 aside{
-    width: 50%;
-    margin: 1rem;
+    padding: 2rem;
+    margin: 3rem;
+    border: 1px solid hsl(192, 25%, 88%);
     font-size: 1.5rem;
     color: black;
-    float: right;
-    padding-top: 4rem;
+    background-color: hsl(148, 9%, 71%);
+    border-radius: 10px;
+
 }
 
 article{
@@ -55,7 +57,6 @@ article{
     margin: 3rem;
     border-radius: 10px;
     background-color: hsl(148, 9%, 71%);
-    -ms-flex-item-align: center;
 }
 
 
@@ -107,10 +108,10 @@ ul{
   h3{
     text-align: center;
     border-radius: 10px;
-    border: 1px solid hsl(210, 3%, 13%);
-    background-color: rgb(251, 252, 246);
-    padding: 2rem;
-    color:  rgb(108, 118, 114);
+    border: 1px solid hsl(192, 25%, 88%);
+    background-color: hsl(148, 9%, 71%);
+    padding: 3rem;
+    color: rgb(87, 82, 82) ;
     margin: 1.5rem;
     font-size: 2em;
     font-family: Arial, Helvetica, sans-serif;
@@ -137,8 +138,135 @@ ul{
     font-size: 20px;
     float: right;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px;
   }
 
+  button:hover{
+    background-color: rgb(231, 236, 236);
+    color: grey;
+  }
 
+  .flex-container{
+    display: flex;
+  }
+
+  /* Responsive Media Queries */
+
+/* Small devices (phones, up to 600px) */
+@media (max-width: 600px) {
+  h1 {
+      font-size: 2em;
+  }
+
+  header {
+      padding: 80px;
+  }
+
+  h2 {
+      font-size: 2em;
+  }
+
+  h3 {
+      font-size: 1.5em;
+      padding: 2rem;
+  }
+
+  p {
+      font-size: 1.2rem;
+  }
+
+  .image {
+      float: none;
+      margin: 1.5rem;
+      width: 100%;
+  }
+
+  button {
+      width: 80%;
+      font-size: 1rem;
+  }
+
+  nav li {
+      float: none;
+  }
+
+  .flex-container {
+      flex-direction: column;
+  }
+}
+
+/* Medium devices (tablets, 601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+      font-size: 3em;
+  }
+
+  header {
+      padding: 100px;
+  }
+
+  h2 {
+      font-size: 2.5em;
+  }
+
+  h3 {
+      font-size: 1.8em;
+      padding: 2.5rem;
+  }
+
+  p {
+      font-size: 1.5rem;
+  }
+
+  .image {
+      float: none;
+      margin: 2rem;
+      width: 50%;
+  }
+
+  button {
+      width: 50%;
+      font-size: 1.2rem;
+  }
+
+  .flex-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+}
+
+/* Large devices (desktops, 1025px and up) */
+@media (min-width: 1025px) {
+  h1 {
+      font-size: 4em;
+  }
+
+  header {
+      padding: 150px;
+  }
+
+  h2 {
+      font-size: 3em;
+  }
+
+  h3 {
+      font-size: 2em;
+      padding: 3rem;
+  }
+
+  p {
+      font-size: 2rem;
+  }
+
+  .image {
+      float: left;
+      margin: 3.5rem;
+      width: auto;
+  }
+
+  button {
+      width: 30%;
+      font-size: 1.5rem;
+  }
+}
   
